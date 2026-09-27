@@ -80,4 +80,3 @@ The cord resistance equation applies to the divider orientation described above.
 - **Serial output can limit the sample rate.** At 9600 baud, printing can delay the loop, especially if more output columns are enabled.
 - Voltage conversion assumes an exact 5 V reference; actual reference voltage affects the results.
 - The sketch records a raw sensor signal. It does not calculate breathing rate, filter the data, or calibrate voltage to chest expansion or respiratory volume.
-- This repository documents the supplied sketch; hardware performance has not been validated here.
